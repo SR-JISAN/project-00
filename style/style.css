@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    background-color: rgb(218, 218, 218);
+}
+.my-name{
+    font-weight: 900;
+    font-size: x-large;
+    background-color: cornsilk;
+    font-style: italic;
+}
+.navigation{
+    display: grid ;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    justify-content:space-evenly;
+    background-color: cornsilk;
+    margin-top: 10px;
+
+}
+.navi-discrip{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: large;
+    font-weight: 800;
+    padding-top: 10px;
+    color: rgb(25, 25, 67);
+    background-color: cornsilk;
+    font-style: italic;
+
+}
+.navi-link{
+    text-decoration: none;
+    background-color: cornsilk;
+}
+.btn-link{
+    text-decoration: none;
+    background-color:rgb(134, 222, 2);
+    font-size: medium;
+    font-weight: 700;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+.navi-btn{
+    background-color:rgb(134, 222, 2);
+    border: 3px solid cornsilk;
+    color: white;
+    border-radius: 5px;
+    
+}
+.navi-btn:hover, .btn-link:hover{
+    background-color: red;
+}
