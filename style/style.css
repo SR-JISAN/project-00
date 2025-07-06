@@ -1,7 +1,6 @@
-*{
+ *{ 
     margin: 0;
-    background-color: rgb(218, 218, 218);
-}
+  } 
 .my-name{
     font-weight: 900;
     font-size: x-large;
@@ -52,4 +51,9 @@
 }
 .navi-btn:hover, .btn-link:hover{
     background-color: red;
+}
+.dis-body{
+    background-image: url(../image/photo-1497864149936-d3163f0c0f4b.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
