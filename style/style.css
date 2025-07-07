@@ -52,8 +52,34 @@
 .navi-btn:hover, .btn-link:hover{
     background-color: red;
 }
-.dis-body{
+.body{
     background-image: url(../image/photo-1497864149936-d3163f0c0f4b.avif);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    width: 100%;
+    padding: 10px;  
+    margin-top: 10px;
+}
+.dis-heading{
+    color: aliceblue;
+    font-style: italic;
+}
+.dis-para{
+    color: aliceblue;
+    font-style: italic;
+    width: 50%;
+}
+.dis-btn1{
+    background-color: rgba(222, 184, 135, 0.126);
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: rgb(36, 244, 4);
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    padding: 10px;
+    margin-right: 10px;
+}
+.dis-btn1:hover{
+    background-color: rgba(255, 17, 0, 0.384);
+    cursor: pointer;
 }
